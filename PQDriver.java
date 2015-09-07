@@ -6,7 +6,7 @@ public class PQDriver {
 
 	public static void main (String [] args) {
 		//Make PriorityQueue. i.e. : PriorityQueue pq = new PriorityQueue();
-		
+		PriorityQueue pq = new PriorityQueue();
 		//Copied straight from instructions
 
 		insertCD(pq, createCD("The Gallery", "Dark Tranquillity")); 
@@ -32,11 +32,11 @@ public class PQDriver {
 
 		//will look something like: 
 		
-		/*	
+			
 			
 			while (pq.size() > 0)
 				System.out.println(pq.poll()); //poll comes from API documentation. see hyperlink
-		*/
+		
 	}
 
 	//create and return a CD but assign a default value ($14.99) and a default number of tracks (10) to each CD
